@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="InfyniApplication">
+    <test name="UserLogin">
+        <parameter name="EmailId" value="sakthis455@gmail.com"></parameter>
+        <parameter name="Password" value="Sakthi@8491"></parameter>
+
+
+        <classes>
+            <class name="InfyniApplicationTestCase.LoginApplication"></class>
+            <class name="InfyniApplicationTestCase.FreeWebinarVerification"></class>
+            <class name="InfyniApplicationTestCase.BlogsTestcase"></class>
+
+        </classes>
+    </test>
+</suite>
